@@ -1,0 +1,85 @@
+$color-button:rgb(211, 195, 181);
+$color-hr:#d88c28;
+
+
+
+body{
+     overflow-x: hidden;
+
+    overflow-y: auto;
+}
+.main-header{
+    background-color:$color-button;
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:  2px 5px 10px #222020;
+  
+}
+.btn{
+    background: none;
+   //background-color:$color-button ;
+   box-shadow: 2px 2px 2px 2px rgb(32, 32, 30);
+  
+ margin: 5px;
+ 
+}
+
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.959);
+   text-shadow: 2px 2px 2px #333333;
+  
+}
+.profile{
+    height: 250px;
+    width: 100%;
+   background-color:$color-button;
+   text-align: center;
+   
+}
+.img-prof{
+    width:100px;
+    height:100px;
+    margin-top: 50px;
+    border-radius: 50%;
+   background-color: white;
+}
+.hr{
+width: 50%;
+color: $color-hr;
+border-width: 2px
+}
+.login{ 
+    padding: 15px;
+background-color: $color-button;
+border-radius: 10px;
+}
+.button{
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+   box-shadow: 1px 1px 2px rgb(139, 131, 124);
+    background: $color-button; 
+    border: none;
+    border-radius: 5px;
+}
+.footer{
+    background-color: $color-button;
+    width: 100%;
+    height: 300px;
+}
+.foot-link{
+    margin-top: 40px;
+    margin-left: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.logo-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    margin-top: 100px;
+    margin-left: 20px;
+}
